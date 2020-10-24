@@ -46,7 +46,7 @@ app.post('/emc2', function (req, res) {
     + " Joules.";
 
     out = {speech: botSpeech,
-            displayText: botSpeech,
+            fulfillmentText: botSpeech,
             data: null};
 
     var outString = JSON.stringify(out);
